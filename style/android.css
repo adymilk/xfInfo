@@ -1,0 +1,63 @@
+    *a{text-decoration: none;}
+    body{
+        color: #333;
+        background-color: #EEEEEE;
+    }
+
+
+    .see-more{
+        font-weight: normal;
+        display: inline;
+        float: right;background-color: red;
+        color: #fff;
+        padding: 5px;
+        font-size: 14px;
+        margin-right: 8px;
+    }
+    h4 a:hover{
+        background-color: #FF5200;
+        color: #fff;
+
+    }
+    .content {
+        background-color: #fff;
+        padding-bottom: 10px;
+        text-align: center;
+        box-shadow: 0px 0px 8px #999;
+    }
+    .content:hover{
+        background-color: #EEEEEE;
+    }
+    .content a{
+        background-color: red;
+        color: #fff;
+    }
+    .btn{
+        font-size: 14px;
+        line-height: 1.3333333;
+        border-radius: 4px;
+        padding: 7px 10px;
+
+    }
+    .content a:hover{
+        background-color: #FF5200;
+        color: #fff;
+    }
+    .detail{
+        background-color: #fff;
+    }
+
+    .app{
+        width: 80%;
+        height: 100%;
+    }
+    .app-detail{
+        overflow: hidden; /*自动隐藏文字*/
+        text-overflow: ellipsis;/*文字隐藏后添加省略号*/
+        white-space: nowrap;/*强制不换行*/
+    }
+    
+    .down-r{
+        float: right;
+    }
+    

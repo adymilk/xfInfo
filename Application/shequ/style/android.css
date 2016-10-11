@@ -1,0 +1,106 @@
+a:link {
+text-decoration: none;
+}
+a{
+    color: #000;
+}
+p{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #EEEEEE;
+}
+.jb-bg{
+    background-color: #fff;
+    text-align: center;
+}
+.sub-active{
+    color: #3893eb;
+}
+.sub-acticle{font-size: 18px;
+    color: red;
+    font-weight: bold;
+}
+.sub-img{
+    float: left;
+}
+.label{
+    font-size: 13px;
+}
+.post-sub {
+    
+    border-radius: 8px;
+    background-color: #FE6C49;
+    width: 250px;
+    height: 45px;
+    /*发表新帖居中*/
+    margin: 0 auto;
+    background-image: url(../images/post_btn_big.png);
+    background-repeat: no-repeat;
+
+
+}
+
+
+.ver_dev{
+    margin-top: 15px;
+    float: left;
+    width: 35%;
+    background-color: #2CAAFA;
+    line-height: 37px;
+    text-align: center;
+    border-radius: 5px;
+}
+.btn_ver a{
+font-size: 14px;
+line-height: 37px;
+color: white;
+font-weight: 800; 
+text-decoration: none;
+}
+.ver-right{
+    float: right;
+    background-color:#FE6C49 
+}
+.clear{clear: both;}
+.sign-area{
+    width: 218px;
+    height: 64px;
+    /*发表新帖居中*/
+    margin: 0 auto;
+    background-image: url(../images/signin_2.png);
+    background-repeat: no-repeat;
+}
+.p{
+    color: #fff;
+    padding-left: 150px
+}
+.p1{
+    padding-top: 10px;
+}
+.p2{
+    padding-top: 4px;
+}
+.box{
+    border-radius:5px;
+    background-color:#fff; 
+    margin-top:10px; 
+    margin-bottom:10px; 
+    padding-top:10px;
+    padding-bottom:10px;
+
+}
+.new li{
+    list-style: none;
+    float: left;
+    line-height: 20px;
+    margin-left: 20px;
+    height: 40px;
+}
+.new{
+    width: 100%;
+}
+tr td{
+    text-align: center;
+}

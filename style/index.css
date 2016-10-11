@@ -1,0 +1,272 @@
+
+		*, body { font-family: "HelveticaNeue", "Helvetica Neue", Helvetica, Arial, sans-serif; }
+		a:link{
+			text-decoration: none;
+			color: #000；
+		}
+        
+		body {margin: 0; padding: 0; overflow:--Scroll; overflow-x: hidden;}
+		.item > img{line-height:1;width: 100%}
+		.footer_ul, li a{
+			list-style: none;
+			padding-left: 0px;
+			color: #959595;
+		}
+		/*footer部分*/
+		.footer_ul li a:hover{color:#959595;}
+		.footer_ul li{line-height: 22px;}
+		.copyright{
+			text-align: center;
+			background-color: #000;
+		}
+		.copyright p{
+			margin: 0 0 0;
+			color: #999
+		}
+		/*顶部导航*/
+		/*.navbar-wrapper{
+			background-color: #222222;
+		}
+		.navbar-nav {
+    		float: left;
+    		margin-left: 3%;
+    		width: 80%;
+	}*/
+	.login-and-reg{
+		text-align: right;
+	}
+	
+	
+	
+	
+
+		/*推荐*/
+		.suggest h2  {
+			margin-top: 10px;
+		}
+
+		.suggest h2{
+			color: #000;
+			font-size: 24px;
+	position: relative;
+	text-align: center;
+	margin: 60px auto 35px;}
+	.suggest h2 strong{
+		font-family: "微软雅黑";
+	font-weight: normal;
+	padding: 0 20px;
+	background: #FFF;
+	position: relative;
+	z-index: 1;
+	}
+
+		.suggest h2::after{
+			content: '';
+		position: absolute;
+		background: #C9C5C5;
+		height: 1px;
+		left: 0;
+		right: 0;
+		top: 13px;
+		}
+		
+
+.btn-center{text-align: center;}
+
+
+.btn-center a:hover{background-color: #DB4437; color: #fff}
+.arc{margin-top: 10px; text-align: left;}
+.arc h2{color: #000}
+.code{margin-top: 30px; text-align: center;}
+.text{font-size: 17px;}
+.navbar{
+	margin-bottom: 0px;
+}
+/*.nav li:hover{
+	background-color: #000;
+}*/
+.navbar-brand img{
+    width: 28px;
+    height: 28px;
+}
+.temp-img img{
+	height: 150px;
+	 
+}
+
+.temp-img p{
+	text-align: center;
+	color: #000;
+}
+.clear{
+	clear: both;
+}
+.web_left {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-left: 0;
+}
+
+.wenzhang img{
+	display: block;
+	padding: 4px;
+    border: #f4f2f2 1px solid;
+    width: 175px;
+    height: 118px;
+    float: left;
+}
+.web_left {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    border: 1px solid #ddd;
+    margin-left: 0;
+}
+.wenzhang {
+	border: 1px solid #ccc;
+	border-radius: 5px;
+    border-bottom: 2px dotted #CCC;
+}
+.wenzhang:hover{
+	background-color: #fcf4f4;;
+}
+.wenzhang a{
+    color: #000;
+}
+.bg{
+    
+    border: 1px solid #ccc;
+}
+.author{
+    border-radius: 100%;
+}
+
+.banner img{
+    display: block;
+    width: auto;
+    height: 300px;
+}
+.index-xf{
+    display: block;
+    position: absolute;
+    top: 20%;
+    left: 50%;
+    right: 50%;
+
+}
+.index-xf img{
+    width: 100px;
+    height: 100px;
+    border-radius: 100%;
+}
+/*.index li:hover{
+    background-color: #E66F64;
+}*/
+.banner{
+    background-color: #958681;
+}
+
+.slide{
+}
+.head-img img{
+    height: 80%;
+}
+.head-text{
+    height: 20%;
+}
+.border-radius-100{
+    border-radius: 100%;
+}
+.weibo-icon{
+    width: 20px;
+height: 20px;
+vertical-align: -5px;
+}
+.sex{
+    display: inline-block;
+background-image: url("../assets/images/weibo-img.png");
+background-repeat: no-repeat;
+background-position: -100px -50px;
+}
+.king{
+     display: inline-block;
+background-image: url("../assets/images/weibo-img.png");
+background-repeat: no-repeat;
+background-position: -100px -50px;
+    background-position: -25px -125px;
+}
+/*.v{
+    display: inline-block;
+background-image: url("../assets/images/weibo-img.png");
+background-repeat: no-repeat;
+background-position: -50px -25px;
+position: absolute;
+z-index: 2;
+top: 48%;
+right: 42%;  
+}*/
+.no-padding{
+    padding-left: 1px;
+    padding-right: 1px;
+    padding-bottom: 0px;
+    padding-top: 0px;
+}
+.no-margin{
+	margin: 0px;
+}
+.nav{
+    width: 80%;
+}
+.dock {
+    position: fixed;
+    right: 0px;
+    width: 50px;
+    -moz-opacity: 0.3;
+    opacity: 0.3;
+    z-index: 200;
+    height: 100px;
+	bottom: 10px;
+}
+
+.dock ul.icons li{
+	cursor: default;
+}
+.dock ul.icons {
+    position: absolute;
+    list-style: none;
+    right: 0px;
+    padding: 0px;
+    width: 50px;
+    border: 1px solid #333;
+    border-right: none;
+    background: #111;
+    -moz-border-radius: 10px 0 0 10px;
+    -webkit-border-radius: 10px 0 0 10px;
+    border-radius: 10px 0 0 10px;
+    -webkit-transition: all .3s ease-in-out 0s;
+    -moz-transition: all .3s ease-in-out 0s;
+    -ms-transition: all .3s ease-in-out 0s;
+    -o-transition: all .3s ease-in-out 0s;
+    transition: all .3s ease-in-out 0s;
+}
+.dock ul.icons li.up i {
+    
+    display: block;
+	width: 50px;
+	height: 50px;
+
+}
+.temp-title{
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+.uvp{
+	float:right; line-height:40px; list-style:none;
+}
+.thanks ul li{
+	list-style: none;
+	float: left;
+	margin: 5px;
+}
